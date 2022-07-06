@@ -6,6 +6,10 @@ html {
     padding: 0;
 }
 
+section {
+    margin-bottom: 10%;
+}
+
 a {
     text-decoration: none;
     background-color: coral;
@@ -32,4 +36,51 @@ a {
 
 .top p {
     padding: 10%;
+}
+
+.midfirst {
+    text-align: center;
+    font-size: 25px;
+}
+
+.midfirst p {
+    color: lightslategray;
+    font-size: 20px;
+}
+
+hr {
+    width: 60%;
+}
+
+.midsecond {
+    display: flex;
+    font-weight: 700;
+    font-size: 25px;
+    color: gray;
+    margin: 5% 25%;
+    text-align: center;
+}
+
+.two {
+    padding: 5%;
+}
+
+.design {
+    color: red;
+    background-color: lightgrey;
+    border: 2px solid tomato;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    padding: 5% 5%;
+}
+
+.third {
+    padding: 5%;
+}
+
+.lightblue {
+    background-color: rgba(107, 142, 163, 0.986);
 }
