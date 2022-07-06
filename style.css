@@ -46,6 +46,8 @@ a {
 .midfirst p {
     color: lightslategray;
     font-size: 20px;
+    text-align: center;
+    margin: 2%;
 }
 
 hr {
@@ -74,13 +76,144 @@ hr {
 
 .container {
     display: flex;
-    padding: 5% 5%;
 }
 
 .third {
-    padding: 5%;
+    border-radius: 10px;
+
+    margin: 2%;
 }
 
 .lightblue {
-    background-color: rgba(107, 142, 163, 0.986);
+    background-color: powderblue;
+    padding: 5% 2%;
+}
+
+.pink {
+    background-color: lavenderblush;
+    padding: 5% 2%;
+}
+
+.papay {
+    background-color: papayawhip;
+    padding: 5% 2%;
+}
+
+.fourth {
+    display: flex;
+    margin: 5%;
+    font-size: 25px;
+}
+
+.fourthmid {
+    width: 50%;
+}
+
+.fourthmid img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.fourthmid p {
+    font-size: 20px;
+    color: grey;
+}
+
+.fifth {
+    display: flex;
+    margin: 5%;
+    font-size: 25px;
+}
+
+.fifthmid {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.fifthmid img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.fifthmid p {
+    font-size: 20px;
+    color: grey;
+}
+
+.new {
+    display: flex;
+}
+
+.add {
+    width: 50%;
+}
+
+.pic {
+    background-image: url("images/donation10.jpg");
+    background-size: cover;
+    margin-left: 2%;
+    text-align: center;
+}
+
+.pic h1 {
+    padding-top: 100px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #e14141;
+}
+
+.text {
+    padding: 15px;
+    background-color: lightblue;
+    text-align: center;
+}
+
+.six {
+    font-size: 30px;
+    text-align: center;
+}
+
+.six p {
+    font-size: 20px;
+    color: grey;
+}
+
+form {
+    background-color: peachpuff;
+    margin: 10% 25%;
+    padding: 6%;
+    display: flex;
+    border-radius: 10px;
+}
+
+input {
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: lightgrey;
+    padding: 2% 10% 2% 3%;
+    font-size: 20px;
+}
+
+label {
+    font-size: 20px;
+    background-color: tomato;
+    padding: 13px 16px;
+    border-radius: 5px;
+    color: white;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 4%;
+}
+
+footer h1 {
+    color: coral;
+    font-style: italic;
+}
+
+footer p {
+    color: white;
 }
